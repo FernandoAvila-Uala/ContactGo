@@ -1,0 +1,11 @@
+Resources:
+  Function:
+    Type: AWS::Serverless::Function
+    Properties:
+      Timeout: 270
+      MemorySize: 1152
+      Handler: main
+      CodeUri: J:\ProgNote\JavaProyectos\Uala\personalprojects\ContactGo
+      Runtime: go1.x
+      Architectures:
+        - x86_64
